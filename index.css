@@ -1,0 +1,112 @@
+*{  margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: 'Nunito Sans', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.container{
+    max-width: 1000px;
+    background-color: aquamarine;
+    margin: 0 auto;
+    padding: 20px;
+}
+header{
+
+}
+.profile-image{
+    width: 100px;
+    border-radius: 50%;
+    border:5px solid cadetblue;
+    float: left
+}
+.header-bio{
+    float: left;
+    padding: 20px;
+}
+h1,h2,h3,h4,h5,h6{
+    color: navy;
+}
+.header-contact{
+    float: right;
+    padding: 20px;
+}
+.header-contact a{
+    text-decoration: none;
+    color: navy;
+
+}
+.header-contact a:hover{
+    color: tomato;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px solid;
+    width: auto;
+    margin: 20px auto;
+    border-bottom: 0;
+}
+/*
+Main section start
+*/
+#personal-section{
+
+}
+.content{
+    margin-bottom: 30px;
+}
+.left-div{
+    width: 30%;
+    float: left;
+}
+.right-div{
+    width: 70%;
+    float: right;
+}
+.common-hr{
+    border: solid black 1.5px;
+    border-bottom: none;
+    width: 100%;
+    padding: 20px auto;
+}
+.job-post{
+    font-weight: 600;
+    color: navy;
+}
+.job-duration{
+    font-size: small;
+    font-weight: 600;
+    color: navy;
+}
+.job-description{
+    text-align: justify;
+}
+.skills{
+    padding: 0px 15px;
+}
+/**Education**/
+.edu-temp-left{
+    float: left;
+    width: 45%;
+
+}
+
+.edu-temp-right{
+    float: right;
+    width: 45%;
+}
+/*Footer*/
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding: 10px 0;
+}
+.bottom-container a, .copyright{
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
